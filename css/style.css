@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+
+    color: green;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+p {
+    padding: 15px 5px 0px 5px;
+    font-family: Gerogia sans-serif;
+    font-size: 15px;
+    position: relative;
+}
+
+.section {
+    background-color: rgb(150, 150, 150);
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+    height: 200px;
+}
+
+span {
+    font-size: 20px;
+    width: 150px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    float: right; top:0; right: 0; margin: 0;
+    position: absolute;
+
+}
+
+#chicken {
+    background-color: #e6837c;
+    color: rgb(0, 0, 0);
+}
+
+#beef {
+    background-color: #a60c02;
+    color: white;
+}
+
+#pork {
+    background-color: #a6992b;
+    color: black;
+}
+
+.row {
+    width: 100%;
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .col-md-12 {
+        float: left;
+        width: 100%
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
